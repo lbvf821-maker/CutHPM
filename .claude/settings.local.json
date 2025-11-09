@@ -1,0 +1,24 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python -c:*)",
+      "Bash(python test_fix.py:*)",
+      "Bash(del algorithm_selector.py)",
+      "Bash(timeout 60 python:*)",
+      "Bash(python test_final.py:*)",
+      "Bash(python -B -c:*)",
+      "Bash(python:*)",
+      "Bash(taskkill:*)",
+      "Bash(curl:*)",
+      "Bash(nul)",
+      "Bash(timeout /t 6 /nobreak)",
+      "Bash(findstr:*)",
+      "Bash(dir:*)",
+      "Bash(timeout /t 3 /nobreak)",
+      "Bash(timeout:*)",
+      "Bash(copy:*)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}
